@@ -26,7 +26,7 @@ body {
     margin: 0;
     padding: 0;
     max-width: 1400px;
-    min-height: 100vh;
+    max-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background-image: url(/images/bg-desktop.svg);
@@ -61,23 +61,26 @@ main {
 .content {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
 }
 
 article {
-    margin-top: 15%;
+    margin-top: 2%;
     font-family: 'Poppins', sans-serif;
     color: white;
 }
 
-article h1 {
+.content h1 {
     width: 100%;
     font-size: 36px;
     font-weight: 600;
     line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 article p {
-    width: 113%;
+    max-width: 113%;
     margin-top: 3%;
 }
 
@@ -87,24 +90,19 @@ article p {
     justify-content: center;
     width: 40%;
     height: 3.2em;
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 15px;
     border: none;
     background-color: white;
     border-radius: 3.33em;
-    
 }
 
 .botton-register a {
     text-decoration: none;
 }
 
-footer {
-    
-}
-
 footer figure {
-    width: 90%;
+    max-width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -137,7 +135,6 @@ footer img {
     
     .illustration {
        width: 110%;
-    
     }
     
     .illustration img {
@@ -149,12 +146,12 @@ footer img {
     }
 
     article {
-        margin-top: 15%;
+        margin-top: 5%;
         font-family: 'Poppins', sans-serif;
         color: white;
     }
     
-    article h1 {
+    .content h1 {
         width: 80%;
         text-align: center;
         font-size: 24px;
@@ -167,6 +164,7 @@ footer img {
         width: 97%;
         margin-top: 5%;
         text-align: center;
+        line-height: 1.5em;
     }
     
     .botton-register {
@@ -179,16 +177,11 @@ footer img {
         text-decoration: none;
     }
     
-    footer {
-        
-    }
-    
     footer figure {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 10% 5% 0 5%;
-        
+        margin: 20% 5% 0 5%;    
     }
     
     footer img {
