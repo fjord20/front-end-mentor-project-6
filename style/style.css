@@ -25,7 +25,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    max-width: 1440px;
+    max-width: 1200px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background-image: url(/images/bg-desktop.svg);
@@ -42,11 +42,11 @@ main {
     display: flex;
     flex-direction: row;
     position: relative;
-    margin: 2% 5% 0 5%;
+    margin: 2% 3% 0 3%;
 }
 
 .illustration {
-   width: 175%;
+   width: 165%;
 }
 
 .content {
@@ -94,11 +94,12 @@ article p {
     text-decoration: none;
 }
 
-footer figure {
+footer {
+    display: flex;
     max-width: 90%;
     display: flex;
     justify-content: right;
-    margin-left: 6%;
+    margin-left: 8%;
 }
 
 footer img {
@@ -162,7 +163,7 @@ footer img {
         text-decoration: none;
     }
     
-    footer figure {
+    footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
