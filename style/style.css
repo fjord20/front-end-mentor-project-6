@@ -71,7 +71,7 @@ article {
 }
 
 article p {
-    max-width: 113%;
+    max-width: 95%;
     margin-top: 3%;
 }
 
@@ -80,7 +80,7 @@ article p {
     align-items: center;
     justify-content: center;
     width: 40%;
-    height: 3.2em;
+    height: 3.5em;
     margin-top: 5%;
     font-size: 15px;
     border: none;
@@ -99,7 +99,8 @@ footer {
     display: flex;
     max-width: 90%;
     justify-content: right;
-    margin-left: 7%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 footer img {
