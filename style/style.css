@@ -25,7 +25,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    max-width: 1200px;
+    max-width: 1440px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background-image: url(/images/bg-desktop.svg);
@@ -42,7 +42,7 @@ main {
     display: flex;
     flex-direction: row;
     position: relative;
-    margin: 2% 3% 0 3%;
+    margin: 2% 4% 0 4%;
 }
 
 .illustration {
@@ -97,9 +97,8 @@ article p {
 footer {
     display: flex;
     max-width: 90%;
-    display: flex;
     justify-content: right;
-    margin-left: 8%;
+    margin-left: 7%;
 }
 
 footer img {
