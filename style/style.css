@@ -1,4 +1,4 @@
-    html {
+html {
     box-sizing: border-box;
     font-size: 15px;
   }
@@ -25,7 +25,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    max-width: 1400px;
+    max-width: 1440px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     background-image: url(/images/bg-desktop.svg);
@@ -46,12 +46,8 @@ main {
 }
 
 .illustration {
-   width: 200%;
+   width: 175%;
 }
-
-.illustration img {
-    width: 100%;
- }
 
 .content {
     display: flex;
@@ -66,7 +62,7 @@ article {
 }
 
 .content h1 {
-    width: 100%;
+    max-width: 100%;
     font-size: 36px;
     font-weight: 600;
     line-height: 1.5em;
@@ -90,9 +86,11 @@ article p {
     border: none;
     background-color: white;
     border-radius: 3.33em;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 .botton-register a {
+    display: block;
     text-decoration: none;
 }
 
@@ -129,11 +127,7 @@ footer img {
     .illustration {
        width: 110%;
     }
-    
-    .illustration img {
-        width: 100%;
-     }
-    
+
     .content {
         align-items: center;
     }
@@ -152,7 +146,8 @@ footer img {
     }
     
     article p {
-        margin-top: 5%;
+        max-width: 91%;;
+        margin: 5% auto;
         text-align: center;
         line-height: 1.5em;
     }
